@@ -1,0 +1,51 @@
+.bar-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bar-chart-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.bar-chart-container .recharts-wrapper {
+  width: 100%;
+}
+
+.bar-chart-container .recharts-cartesian-axis-tick-value {
+  font-size: 14px;
+}
+
+.bar-chart-container .recharts-cartesian-axis-tick-line {
+  display: none;
+}
+
+.bar-chart-container .recharts-cartesian-grid line {
+  stroke: #ddd;
+  stroke-dasharray: 3 3;
+}
+
+.bar-chart-container .recharts-bar {
+  fill: #6c5ce7;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bar-chart-container .recharts-bar:hover {
+  opacity: 1;
+}
+
+.bar-chart-container .recharts-tooltip {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  opacity: 0.8;
+}

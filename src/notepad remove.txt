@@ -1,0 +1,400 @@
+  <li className="dropdown notification-list list-inline-item d-none d-md-inline-block">
+                        <a className="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="assets/images/us_flag.jpg" className="mr-2" height="12" alt="" /> English <span className="mdi mdi-chevron-down"></span>
+                        </a>
+                        <div className="dropdown-menu dropdown-menu-right dropdown-menu-animated language-switch">
+                            <a className="dropdown-item" href="#"><img src="assets/images/french_flag.jpg" alt="" height="16" /><span> French </span></a>
+                            <a className="dropdown-item" href="#"><img src="assets/images/spain_flag.jpg" alt="" height="16" /><span> Spanish </span></a>
+                            <a className="dropdown-item" href="#"><img src="assets/images/russia_flag.jpg" alt="" height="16" /><span> Russian </span></a>
+                            <a className="dropdown-item" href="#"><img src="assets/images/germany_flag.jpg" alt="" height="16" /><span> German </span></a>
+                            <a className="dropdown-item" href="#"><img src="assets/images/italy_flag.jpg" alt="" height="16" /><span> Italian </span></a>
+                        </div>
+</li>
+
+
+
+<div className="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-menu-lg px-1">
+                           
+                            <h6 className="dropdown-item-text">
+                                    Notifications
+                                </h6>
+                            <div className="slimscroll notification-item-list">
+                                
+                                <a href="javascript:void(0);" className="dropdown-item notify-item active">
+                                    <div className="notify-icon bg-success"><i className="mdi mdi-cart-outline"></i></div>
+                                    <p className="notify-details"><b>Your order is placed</b><span className="text-muted">Dummy text of the printing and typesetting industry.</span></p>
+                                </a>
+                                
+                                <a href="javascript:void(0);" className="dropdown-item notify-item">
+                                    <div className="notify-icon bg-danger"><i className="mdi mdi-message-text-outline"></i></div>
+                                    <p className="notify-details"><b>New Message received</b><span className="text-muted">You have 87 unread messages</span></p>
+                                </a>
+                                
+                                <a href="javascript:void(0);" className="dropdown-item notify-item">
+                                    <div className="notify-icon bg-info"><i className="mdi mdi-filter-outline"></i></div>
+                                    <p className="notify-details"><b>Your item is shipped</b><span className="text-muted">It is a long established fact that a reader will</span></p>
+                                </a>
+                                
+                                <a href="javascript:void(0);" className="dropdown-item notify-item">
+                                    <div className="notify-icon bg-success"><i className="mdi mdi-message-text-outline"></i></div>
+                                    <p className="notify-details"><b>New Message received</b><span className="text-muted">You have 87 unread messages</span></p>
+                                </a>
+                                
+                                <a href="javascript:void(0);" className="dropdown-item notify-item">
+                                    <div className="notify-icon bg-warning"><i className="mdi mdi-cart-outline"></i></div>
+                                    <p className="notify-details"><b>Your order is placed</b><span className="text-muted">Dummy text of the printing and typesetting industry.</span></p>
+                                </a>
+                            </div>
+                            
+                            <a href="javascript:void(0);" className="dropdown-item text-center notify-all text-primary">
+                                    View all <i className="fi-arrow-right"></i>
+                                </a>
+                        </div>
+
+
+
+
+
+
+
+                        <div className="row">
+                       <div className="col-xl-4">
+                           <div className="card m-b-30">
+                               <div className="card-body">
+                                   <h4 className="mt-0 header-title mb-4">Friends Suggestions</h4>
+                                   <div className="friends-suggestions">
+                                       <a href="#" className="friends-suggestions-list">
+                                           <div className="border-bottom position-relative">
+                                               <div className="float-left mb-0 mr-3">
+                                                   <img src="assets/images/user-2.jpg" alt="" className="rounded-circle thumb-md" />
+                                               </div>
+                                               <div className="suggestion-icon float-right mt-2 pt-1">
+                                                   <i className="mdi mdi-plus"></i>
+                                               </div>
+                                               <div className="desc">
+                                                   <h5 className="font-14 mb-1 pt-2">Ralph Ramirez</h5>
+                                                   <p className="text-muted">3 Friend suggest</p>
+                                               </div>
+                                           </div>
+                                       </a>
+                                       <a href="#" className="friends-suggestions-list">
+                                           <div className="border-bottom position-relative">
+                                               <div className="float-left mb-0 mr-3">
+                                                   <img src="assets/images/user-3.jpg" alt="" className="rounded-circle thumb-md" />
+                                               </div>
+                                               <div className="suggestion-icon float-right mt-2 pt-1">
+                                                   <i className="mdi mdi-plus"></i>
+                                               </div>
+                                               <div className="desc">
+                                                   <h5 className="font-14 mb-1 pt-2">Patrick Beeler</h5>
+                                                   <p className="text-muted">17 Friend suggest</p>
+                                               </div>
+                                           </div>
+                                       </a>
+                                       <a href="#" className="friends-suggestions-list">
+                                           <div className="border-bottom position-relative">
+                                               <div className="float-left mb-0 mr-3">
+                                                   <img src="assets/images/user-4.jpg" alt="" className="rounded-circle thumb-md" />
+                                               </div>
+                                               <div className="suggestion-icon float-right mt-2 pt-1">
+                                                   <i className="mdi mdi-plus"></i>
+                                               </div>
+                                               <div className="desc">
+                                                   <h5 className="font-14 mb-1 pt-2">Victor Zamora</h5>
+                                                   <p className="text-muted">12 Friend suggest</p>
+                                               </div>
+                                           </div>
+                                       </a>
+                                       <a href="#" className="friends-suggestions-list">
+                                           <div className="border-bottom position-relative">
+                                               <div className="float-left mb-0 mr-3">
+                                                   <img src="assets/images/user-5.jpg" alt="" className="rounded-circle thumb-md" />
+                                               </div>
+                                               <div className="suggestion-icon float-right mt-2 pt-1">
+                                                   <i className="mdi mdi-plus"></i>
+                                               </div>
+                                               <div className="desc">
+                                                   <h5 className="font-14 mb-1 pt-2">Bryan Lacy</h5>
+                                                   <p className="text-muted">18 Friend suggest</p>
+                                               </div>
+                                           </div>
+                                       </a>
+                                       <a href="#" className="friends-suggestions-list">
+                                           <div className="position-relative">
+                                               <div className="float-left mb-0 mr-3">
+                                                   <img src="assets/images/user-6.jpg" alt="" className="rounded-circle thumb-md" />
+                                               </div>
+                                               <div className="suggestion-icon float-right mt-2 pt-1">
+                                                   <i className="mdi mdi-plus"></i>
+                                               </div>
+                                               <div className="desc">
+                                                   <h5 className="font-14 mb-1 pt-2">James Sorrells</h5>
+                                                   <p className="text-muted mb-1">6 Friend suggest</p>
+                                               </div>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div className="col-xl-4">
+                           <div className="card m-b-30">
+                               <div className="card-body">
+                                   <h4 className="mt-0 header-title mb-4">Sales Analytics</h4>
+                                   <div id="morris-line-example" className="morris-chart" style={{height: "360px"}}></div>
+                               </div>
+                           </div>
+                       </div>
+                       <div className="col-xl-4">
+                           <div className="card m-b-30">
+                               <div className="card-body">
+                                   <h4 className="mt-0 header-title mb-4">Recent Activity</h4>
+                                   <ol className="activity-feed mb-0">
+                                       <li className="feed-item">
+                                           <div className="feed-item-list">
+                                               <p className="text-muted mb-1">Now</p>
+                                               <p className="font-15 mt-0 mb-0">Jassa magna Jassa, risus posted a new article: <b className="text-primary">Forget UX Rowland</b></p>
+                                           </div>
+                                       </li>
+                                       <li className="feed-item">
+                                           <p className="text-muted mb-1">Yesterday</p>
+                                           <p className="font-15 mt-0 mb-0">Jassa posted a new article: <b className="text-primary">Designer Alex</b></p>
+                                       </li>
+                                       <li className="feed-item">
+                                           <p className="text-muted mb-1">2:30PM</p>
+                                           <p className="font-15 mt-0 mb-0">Jassa, Jassa, Jassa Commented <b className="text-primary"> Developer Moreno</b></p>
+                                       </li>
+                                       <li className="feed-item pb-1">
+                                           <p className="text-muted mb-1">12:48 PM</p>
+                                           <p className="font-15 mt-0 mb-2">Jassa, Jassa Commented <b className="text-primary">UX Murphy</b></p>
+                                       </li>
+                                   </ol>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+
+
+
+                   //submenu
+                          <ul className="submenu">
+                                <li><a href="#">Alerts</a></li>
+                                <li><a href="#">Badge</a></li>
+                                
+                            </ul>
+
+
+
+
+
+
+                             <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-todolist-check"></i><span> Forms <span className="badge badge-pill badge-danger float-right">8</span> </span></a>
+                            <ul className="submenu">
+                                <li><a href="#">Form Elements</a></li>
+                                <li><a href="#">Form Validation</a></li>
+                             
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-graph"></i><span> Charts <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul className="submenu">
+                                <li><a href="#">Morris Chart</a></li>
+                                <li><a href="#">Chartist Chart</a></li>
+                                <li><a href="#">Chartjs Chart</a></li>
+                                <li><a href="#">Flot Chart</a></li>
+                                <li><a href="#">C3 Chart</a></li>
+                                <li><a href="#">Jquery Knob Chart</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-spread"></i><span> Tables <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul className="submenu">
+                                <li><a href="#">Basic Tables</a></li>
+                                <li><a href="#">Data Table</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-coffee"></i> <span> Icons  <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span></span> </a>
+                            <ul className="submenu">
+                                <li><a href="#">Material Design</a></li>
+                                <li><a href="#">Font Awesome</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-map"></i><span> Maps <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul className="submenu">
+                                <li><a href="#"> Google Map</a></li>
+                                <li><a href="#"> Vector Map</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" className="waves-effect"><i className="icon-share"></i><span> Multi Level <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span> </span></a>
+                            <ul className="submenu">
+                                <li><a href="#"> Menu 1</a></li>
+                                <li>
+                                    <a href="#">Menu 2  <span className="float-right menu-arrow"><i className="mdi mdi-chevron-right"></i></span></a>
+                                    <ul className="submenu">
+                                        <li><a href="#">Menu 2.1</a></li>
+                                        <li><a href="#">Menu 2.1</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
+
+                        <div className="table-responsive">
+                                        <table className="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Status</th>
+                                                    <th scope="col">Amount</th>
+                                                    <th scope="col">Contact</th>
+                                                    <th scope="col">Location</th>
+                                                    <th scope="col" colspan="2">Date</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Jassa</td>
+                                                    <td><span className="badge badge-success">Delivered</span></td>
+                                                    <td>$9,420,000</td>
+                                                    <td>
+                                                        <div>
+                                                            <img src="assets/images/user-2.jpg" alt="" className="thumb-md rounded-circle mr-2" /> Jassa
+                                                        </div>
+                                                    </td>
+                                                    <td>Ludhiana</td>
+                                                    <td>15/1/2021</td>
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" className="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jassa</td>
+                                                    <td><span className="badge badge-warning">Pending</span></td>
+                                                    <td>$3,120,000</td>
+                                                    <td>
+                                                        <div>
+                                                            <img src="assets/images/user-3.jpg" alt="" className="thumb-md rounded-circle mr-2" /> Jassa
+                                                        </div>
+                                                    </td>
+                                                    <td>Ludhiana</td>
+                                                    <td>16/1/2021</td>
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" className="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jassa</td>
+                                                    <td><span className="badge badge-success">Delivered</span></td>
+                                                    <td>$6,360,000</td>
+                                                    <td>
+                                                        <div>
+                                                            <img src="assets/images/user-4.jpg" alt="" className="thumb-md rounded-circle mr-2" /> Jassa
+                                                        </div>
+                                                    </td>
+                                                    <td>Ludhiana</td>
+                                                    <td>17/1/2021</td>
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" className="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jassa</td>
+                                                    <td><span className="badge badge-danger">Cancel</span></td>
+                                                    <td>$5,200,000</td>
+                                                    <td>
+                                                        <div>
+                                                            <img src="assets/images/user-5.jpg" alt="" className="thumb-md rounded-circle mr-2" /> Jassa
+                                                        </div>
+                                                    </td>
+                                                    <td>Ludhiana</td>
+                                                    <td>18/1/2021</td>
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" className="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jassa</td>
+                                                    <td><span className="badge badge-success">Delivered</span></td>
+                                                    <td>$7,250,000</td>
+                                                    <td>
+                                                        <div>
+                                                            <img src="assets/images/user-6.jpg" alt="" className="thumb-md rounded-circle mr-2" /> Jassa
+                                                        </div>
+                                                    </td>
+                                                    <td>Ludhiana</td>
+                                                    <td>19/1/2021</td>
+                                                    <td>
+                                                        <div>
+                                                            <a href="#" className="btn btn-primary btn-sm">Edit</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+
+
+
+
+                                      <tr>
+                                                    <th scope="col">Id</th>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Subtitle</th>
+                                                    <th scope="col">Image</th>
+                                                    <th scope="col">Top Banner</th>
+                                                    <th scope="col" >Bottom Banner</th>
+                                                    <th scope="col" >Action</th>
+                                                </tr>
+
+
+
+
+                                                <div className="d-flex justify-content-center align-items-center">
+   <Loader type="Rings" color="#00BFFF" height={100} width={100} /></div>
+
+
+    <Formik
+        initialValues={{
+         categoryName:"",
+        subtitle:"",
+                                    categoryimage:"",
+                                    subcategory:"",
+                                    subsubcategory:"",
+                                   }}
+                                   >
+                                   {formik=>{
+                                    <Form>
+                                        {console.log(formik)}
+                                        <TextField label="Category Name" name="category name" type="text"/>
+                                        <TextField label="Subtitle" name="subtitle" type="text"/>
+                                        <TextField label="category image name" name="category image name" type="file"/>
+                                        <TextField label="sub category" name="sub category" type="text"/>
+                                        <TextField label="sub sub category" name="sub sub category" type="text"/>
+                                    </Form>
+                                   }}
+                                   </Formik>
+                                   </div> */}

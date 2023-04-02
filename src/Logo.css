@@ -1,0 +1,20 @@
+.bars{
+    display: none;
+  }
+
+.logo {
+    display: flex;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: bottom;
+    justify-content: center;
+    height: 4%;
+  }
+  
+  
+  .logo > img {
+    width: 4rem;
+    height: 4rem;
+  }
